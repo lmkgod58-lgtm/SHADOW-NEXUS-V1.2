@@ -1,0 +1,77 @@
+# ==========================================
+# SHADOW NEXUS - Git Ignore
+# ==========================================
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service-account.json
+
+# Local configuration
+config.local.js
+config.local.json
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / generated files
+dist/
+build/
+coverage/
+.cache/
+
+# Python leftovers, if any tools are used later
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Render/local deployment leftovers
+.render/
+
+# Keep placeholder files in otherwise-empty directories
+!.gitkeep
