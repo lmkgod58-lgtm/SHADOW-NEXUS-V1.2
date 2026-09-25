@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AI Core | Shadow Nexus</title><link rel="stylesheet" href="css/ai-core.css"></head>
+<body>
+<header class="topbar"><div class="brand">SHADOW NEXUS</div><div class="topbar-right"><span id="serviceState" class="status">● OFFLINE</span><a href="index.html" class="back-link">← NEXUS</a></div></header>
+<main class="page"><section class="hero"><div class="hero-copy"><span class="eyebrow">NEURAL SYSTEM</span><h1>AI CORE</h1><p>Central intelligence interface for conversation, coding and research.</p></div><div class="orb-wrap"><div class="orb"></div></div></section>
+<section class="workspace"><aside class="side-panel"><h2>CORE STATUS</h2><div class="stat"><span>MODEL</span><strong id="modelName">---</strong></div><div class="stat"><span>LATENCY</span><strong id="latency">---</strong></div>
+<h2 class="mode-heading">MODES</h2><div class="modes"><button class="mode active" data-mode="chat">CHAT</button><button class="mode" data-mode="code">CODE</button><button class="mode" data-mode="research">RESEARCH</button></div></aside>
+<section class="chat-panel"><div class="chat-header"><div><span class="eyebrow">ACTIVE CHANNEL</span><h2 id="modeTitle">AI CONVERSATION</h2></div><button id="clearChat" class="ghost-btn">CLEAR</button></div>
+<div id="messages" class="messages"><div class="message system"><span class="label">NEXUS</span><p>AI Core initialized. Backend connection will appear here when configured.</p></div></div>
+<form id="chatForm" class="composer"><textarea id="messageInput" rows="2" placeholder="Enter a message..."></textarea><button type="submit" class="send-btn">SEND ↗</button></form></section></section></main>
+<script src="js/config.js"></script><script src="js/ai-core.js"></script></body></html>
