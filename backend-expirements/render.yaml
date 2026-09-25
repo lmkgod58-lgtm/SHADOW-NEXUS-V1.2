@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: shadow-nexus-experiments
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
