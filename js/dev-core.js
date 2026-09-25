@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>document.getElementById("formatJson").onclick=()=>{const i=document.getElementById("devInput").value,o=document.getElementById("devOutput");try{o.textContent=JSON.stringify(JSON.parse(i),null,2)}catch(e){o.textContent="Invalid JSON: "+e.message}});

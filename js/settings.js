@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.getElementById("version").textContent=SHADOW_CONFIG.VERSION;document.getElementById("theme").onchange=e=>document.body.dataset.theme=e.target.value});

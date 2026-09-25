@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>document.getElementById("runExperiment").onclick=()=>document.getElementById("experimentOutput").textContent="Experiment runner ready. Backend endpoint can be connected through SHADOW_CONFIG.");
